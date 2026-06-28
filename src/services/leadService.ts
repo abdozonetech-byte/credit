@@ -1,7 +1,9 @@
 export interface LeadPayload {
   fullName: string;
   phone: string;
+  age: number;
   city: string;
+  currentCreditInstitutions: string[];
   publicSectorConfirmed: boolean;
   creditsCount: string;
   pressureLevel: string;
